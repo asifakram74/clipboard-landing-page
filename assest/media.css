@@ -1,4 +1,8 @@
 @media only screen and (max-width:375px) {
+    .button1,
+    .button2{
+        padding: 16px 84px;
+    }
     .button2{
         margin: 20px 0 0 0;
     }
@@ -18,7 +22,6 @@
         font-size: 18px;
     }
     .button{
-        width: 83%;
         flex-direction: column;
     }
 /*Track*/
@@ -108,7 +111,6 @@
         width: 88%;
     }
     .button-1{
-        width: 95%;
         flex-direction: column;
         padding: 38px 0 84px 0;
     }

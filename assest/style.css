@@ -78,10 +78,6 @@ body{
     font-size: 20px;
 }
 .button{
-    width: 34%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
     padding: 32px 0;
 }
 /*main*/
@@ -150,11 +146,17 @@ body{
     width: 33%;
     margin: 0 auto;
 }
-.s-l h2,
-.s-l1 h2,
-.s-l2 h2{
+.s-l h2{
     font-size: 23px;
     margin: 44px 0 14px 0;
+}
+.s-l1 h2{
+    font-size: 23px;
+    margin: 52px 0 14px 0;
+}
+.s-l2 h2{
+    font-size: 23px;
+    margin: 51px 0 14px 0;
 }
 /*sites*/
 .sites{
@@ -172,10 +174,6 @@ body{
     padding: 114px 0 95px 0;
 }
 .button-1{ 
-    width: 69%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
     padding: 48px 0;
 }
 /*Footer*/
