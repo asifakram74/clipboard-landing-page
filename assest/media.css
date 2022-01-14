@@ -1,0 +1,94 @@
+@media only screen and (max-width:375px) {
+    .button2{
+        margin: 20px 0 0 0;
+    }
+/*header*/
+    #header{
+        background-image: url("images/bg-header-mobile.png");
+    }
+    .h-logo img{
+        width: 100px;
+    }
+    .h-menu h1{
+        font-size: 35px;
+    }
+    .h-menu p{
+        width: 93%;
+        margin: 20px auto;
+        font-size: 18px;
+    }
+    .button,
+    .button-1{
+        width: 89%;
+        flex-direction: column;
+    }
+/*Track*/
+    .t-text,
+    .a-text,
+    .w-text,
+    .c-text{
+        width: 94%;
+    }
+    .t-img {
+        width: 84%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .t-img img{
+        left: 0;
+    }
+    .img-text{
+        width: 95%;
+        margin: 56px auto 0 0;
+        text-align: center;
+    }
+/*Access*/
+    .a-img {
+        width: 100%;
+        margin: 0 auto;
+        padding: 65px 0 0 0;
+    }
+    .a-img img{
+        width: 100%;
+        margin: 0 auto;
+    }
+/*Workflow*/
+    .slide{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .s-l{
+        width: 93%;
+        margin-top: 60px;
+    }
+/*sites*/
+    .s-img{
+        padding: 60px 0 40px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-img img{
+        margin-bottom: 49px;
+    }
+/*Clipboard*/
+    .clipboard{
+        padding: 56px 0 95px 0;
+    }
+/*Footer*/
+    .f-menu{
+        flex-direction: column;
+    }
+    .f-li ul{
+        display: flex;
+        margin: 40px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    .f-li ul{
+        margin: 20px 0;
+    }
+    .f-li ul li{
+        margin: 15px 0;
+    }
+}
