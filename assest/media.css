@@ -6,74 +6,111 @@
     #header{
         background-image: url("images/bg-header-mobile.png");
     }
-    .h-logo img{
-        width: 100px;
+    .h-menu {
+        padding: 52px 0 0 0;
     }
     .h-menu h1{
         font-size: 35px;
     }
     .h-menu p{
         width: 93%;
-        margin: 20px auto;
+        margin: 11PX auto;
         font-size: 18px;
     }
-    .button,
-    .button-1{
-        width: 89%;
+    .button{
+        width: 83%;
         flex-direction: column;
     }
 /*Track*/
+    .track{
+        padding: 127px 0 112px 0;
+    }
     .t-text,
-    .a-text,
-    .w-text,
-    .c-text{
-        width: 94%;
+    .w-text{
+        width: 81%;
+    }
+    .t-text h2,
+    .a-text h2,
+    .w-text h2,
+    .c-text h2{
+        font-size: 27px;
+        margin: 3px 0 17px 0;
     }
     .t-img {
         width: 84%;
         margin: 0 auto;
+        padding-top: 24px;
         flex-direction: column;
     }
     .t-img img{
         left: 0;
     }
     .img-text{
-        width: 95%;
-        margin: 56px auto 0 0;
+        width: 100%;
+        margin: 56px 0 0 0;
         text-align: center;
     }
 /*Access*/
+    .access{
+        padding: 0;
+    }
+    .a-text{
+        width: 90%;
+    }
     .a-img {
         width: 100%;
         margin: 0 auto;
-        padding: 65px 0 0 0;
+        padding: 54px 0 0 0;
     }
     .a-img img{
         width: 100%;
         margin: 0 auto;
     }
 /*Workflow*/
+    .workflow{
+        padding-top: 73px;
+    }
     .slide{
         width: 100%;
         margin: 0 auto;
         flex-direction: column;
     }
     .s-l{
-        width: 93%;
-        margin-top: 60px;
+        width: 92%;
+        margin-top: 80px;
+    }
+    .s-l h2{
+        margin-top: 37px;
+    }
+    .s-l1,
+    .s-l2{
+        width: 92%;
+        margin-top: 54px;
+    }
+    .s-l1 h2,
+    .s-l2 h2{
+        margin-top: 40px;
     }
 /*sites*/
     .s-img{
-        padding: 60px 0 40px 0;
+        padding: 53px 0 40px 0;
         flex-direction: column;
-        align-items: center;
     }
     .s-img img{
-        margin-bottom: 49px;
+        width: 49%;
+        margin-bottom: 59px;
     }
 /*Clipboard*/
     .clipboard{
-        padding: 56px 0 95px 0;
+        padding: 6px 0 95px 0;
+    }
+    .c-text{
+        width: 88%;
+    }
+    .button-1{
+        width: 95%;
+        flex-direction: column;
+        padding: 38px 0 84px 0;
     }
 /*Footer*/
     .f-menu{
@@ -81,14 +118,11 @@
     }
     .f-li ul{
         display: flex;
-        margin: 40px 0;
+        margin: 30px 0;
         flex-direction: column;
         text-align: center;
     }
-    .f-li ul{
-        margin: 20px 0;
-    }
     .f-li ul li{
-        margin: 15px 0;
+        margin: 6px 0;
     }
 }

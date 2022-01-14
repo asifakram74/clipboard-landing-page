@@ -82,7 +82,7 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    padding: 31px 0;
+    padding: 32px 0;
 }
 /*main*/
 /*track*/
@@ -97,10 +97,10 @@ body{
     margin: 0 auto;
     text-align: center;
 }
-.t-text h1,
-.a-text h1,
-.w-text h1,
-.c-text h1{
+.t-text h2,
+.a-text h2,
+.w-text h2,
+.c-text h2{
     font-size: 35px;
     margin: 0 0 22px 0;
 }
@@ -144,11 +144,15 @@ body{
     margin: 73px auto;
     display: flex;
 }
-.s-l{
+.s-l,
+.s-l1,
+.s-l2{
     width: 33%;
     margin: 0 auto;
 }
-.s-l h2{
+.s-l h2,
+.s-l1 h2,
+.s-l2 h2{
     font-size: 23px;
     margin: 44px 0 14px 0;
 }
@@ -160,14 +164,15 @@ body{
 }
 .s-img{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
+    align-items: center;
 }
 /*clipboard*/
 .clipboard{
     padding: 114px 0 95px 0;
 }
 .button-1{ 
-    width: 67%;
+    width: 69%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -177,7 +182,7 @@ body{
 #footer{
     background-color: var(--light-grey);
     color: var(--Dark-Grayish-Blue);
-    padding: 52px 0 50px 0;
+    padding: 45px 0 44px 0;
 }
 .f-menu{
     width: 77%;
@@ -189,11 +194,15 @@ body{
 .f-menu img{
     width: 54px;
 }
+.f-li{
+    width: 58%;
+    margin: 0 auto;
+}
 .f-li ul{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    grid-gap: 17px 161px;
+    grid-gap: 17px 0px;
 }
 .f-li ul li{
     font-size: 20px;
